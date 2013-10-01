@@ -1,0 +1,502 @@
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}</style>
+      <style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style>
+      <link type="text/css" rel="stylesheet" href="./DevFestFiles/css">
+      <style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style>
+      <style type="text/css">.gm-style div,.gm-style span,.gm-style label,.gm-style a{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400}.gm-style div,.gm-style span,.gm-style label{text-decoration:none}.gm-style a,.gm-style label{display:inline}.gm-style div{display:block}.gm-style img{border:0;padding:0;margin:0}</style>
+      <meta charset="utf-8">
+      <title>Dia do Profissional de Informática - 17 de outubro de 2013</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      
+      <link href="http://devfest.com.br/assets/css/bootstrap.css" rel="stylesheet">
+      <link href="http://devfest.com.br/assets/css/bootstrap-responsive.css" rel="stylesheet">
+      <style>
+         /* GLOBAL STYLES
+         -------------------------------------------------- */
+         /* Padding below the footer and lighter body text */
+         body {
+         padding-bottom: 40px;
+         color: #5a5a5a;
+         }
+         /* CUSTOMIZE THE NAVBAR
+         -------------------------------------------------- */
+         /* Special class on .container surrounding .navbar, used for positioning it into place. */
+         .navbar-wrapper {
+         position: relative;
+         z-index: 10;
+         margin-top: 20px;
+         margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+         }
+         /* Remove border and change up box shadow for more contrast */
+         .navbar .navbar-inner {
+         border: 0;
+         -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         }
+         /* Downsize the brand/project name a bit */
+         .navbar .brand {
+         padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+         font-size: 16px;
+         font-weight: bold;
+         text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+         }
+         /* Navbar links: increase padding for taller navbar */
+         .navbar .nav > li > a {
+         padding: 15px 20px;
+         }
+         /* Offset the responsive button for proper vertical alignment */
+         .navbar .btn-navbar {
+         margin-top: 10px;
+         }
+         /* CUSTOMIZE THE NAVBAR
+         -------------------------------------------------- */
+         /* Carousel base class */
+         .carousel {
+         margin-bottom: 60px;
+         }
+         .carousel .container {
+         position: absolute;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         }
+         .carousel-control {
+         background-color: transparent;
+         border: 0;
+         font-size: 120px;
+         margin-top: 0;
+         text-shadow: 0 1px 1px rgba(0,0,0,.4);
+         }
+         .carousel .item {
+         height: 500px;
+         }
+         .carousel img {
+         min-width: 100%;
+         height: 500px;
+         }
+         .carousel-caption {
+         background-color: transparent;
+         position: static;
+         max-width: 600px;
+         padding: 0 20px;
+         margin-bottom: 100px;
+         }
+         .carousel-caption h1,
+         .carousel-caption .lead {
+         margin: 0;
+         line-height: 1.25;
+         color: #fff;
+         text-shadow: 0 1px 1px rgba(0,0,0,.4);
+         }
+         .carousel-caption .btn {
+         margin-top: 10px;
+         }
+         /* MARKETING CONTENT
+         -------------------------------------------------- */
+         /* Center align the text within the three columns below the carousel */
+         .marketing .span4  {
+         text-align: center;
+         }
+         .marketing h2 {
+         font-weight: normal;
+         }
+         .marketing .span4 p {
+         margin-left: 10px;
+         margin-right: 10px;
+         }
+         /* Featurettes
+         ------------------------- */
+         .featurette-divider {
+         margin: 60px 0; /* Space out the Bootstrap 
+         <hr>
+         more */
+         }
+         .featurette {
+         padding-top: 60px; /* Vertically center images part 1: add padding above and below text. */
+         overflow: hidden; /* Vertically center images part 2: clear their floats. */
+         }
+         .featurette-image {
+         margin-top: -60px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+         }
+         /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+         .featurette-image.pull-left {
+         margin-right: 40px;
+         }
+         .featurette-image.pull-right {
+         margin-left: 40px;
+         }
+         /* Thin out the marketing headings */
+         .featurette-heading {
+         font-size: 50px;
+         font-weight: 300;
+         line-height: 1;
+         letter-spacing: -1px;
+         }
+         /* RESPONSIVE CSS
+         -------------------------------------------------- */
+         @media (max-width: 979px) {
+         .container.navbar-wrapper {
+         margin-bottom: 0;
+         width: auto;
+         }
+         .navbar-inner {
+         border-radius: 0;
+         margin: -20px 0;
+         }
+         .carousel .item {
+         height: 500px;
+         }
+         .carousel img {
+         width: auto;
+         height: 500px;
+         }
+         .featurette {
+         height: auto;
+         padding: 0;
+         }
+         .featurette-image.pull-left,
+         .featurette-image.pull-right {
+         display: block;
+         float: none;
+         max-width: 40%;
+         margin: 0 auto 20px;
+         }
+         }
+         @media (max-width: 767px) {
+         .navbar-inner {
+         margin: -20px;
+         }
+         .carousel {
+         margin-left: -20px;
+         margin-right: -20px;
+         }
+         .carousel .container {
+         }
+         .carousel .item {
+         height: 300px;
+         }
+         .carousel img {
+         height: 300px;
+         }
+         .carousel-caption {
+         width: 65%;
+         padding: 0 70px;
+         margin-bottom: 40px;
+         }
+         .carousel-caption h1 {
+         font-size: 30px;
+         }
+         .carousel-caption .lead,
+         .carousel-caption .btn {
+         font-size: 18px;
+         }
+         .marketing .span4 + .span4 {
+         margin-top: 40px;
+         }
+         .featurette-heading {
+         font-size: 30px;
+         }
+         .featurette .lead {
+         font-size: 18px;
+         line-height: 1.5;
+         }
+         header {
+         height: 200px;
+         }
+         .logo {
+         left: 0;
+         position: absolute;
+         top: -40px;
+         width: 100%;
+         }
+         }
+         header {
+         position: relative;
+         z-index: 10;
+         margin-top: 50px;
+         margin-bottom: -150px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+         }
+         #mapa {
+         height: 400px;
+         }
+         table td.center, table thead th { text-align: center; }
+         @media (max-width:400px){
+         header {
+         height: 200px;
+         }
+         .logo {
+         left: 0;
+         position: absolute;
+         top: -40px;
+         width: 100%;
+         }
+         .carousel .item {
+         height: 400px;
+         }
+         .carousel img {
+         height: 400px;
+         }
+         #mapa {
+         width: 90%;
+         }
+         }
+         .center {
+         text-align: center;
+         }
+         #palestrantes img {
+         width: 80px;
+         /*
+         -webkit-border-radius: 25px;
+         -moz-border-radius: 25px;
+         border-radius: 25px;
+         */
+         }
+         .areas img {
+         width: 200px;
+         }
+         .programacao thead td {
+         font-weight: bold;
+         }
+         .programacao table td {
+         text-align: center;
+         vertical-align: middle;
+         }
+         .inverte {
+         background: rgb(0, 68, 122);
+         color: #fff;
+         }
+      </style>
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <link rel="shortcut icon" href="http://devfest.com.br/assets/ico/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://devfest.com.br/assets/ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://devfest.com.br/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://devfest.com.br/assets/ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="http://devfest.com.br/assets/ico/apple-touch-icon-57-precomposed.png">
+      <script type="text/javascript" charset="UTF-8" src="./DevFestFiles/maps.js"></script>
+	  <script type="text/javascript" charset="UTF-8" src="./DevFestFiles/onion.js"></script>
+	  <script type="text/javascript" charset="UTF-8" src="./DevFestFiles/controls.js"></script>
+	  <script type="text/javascript" charset="UTF-8" src="./DevFestFiles/stats.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <header>            
+            <!--<embed src="DevFestFiles/GDG_Belo Horizonte.svg" type="image/svg+xml" class="logo">-->
+         </header>
+      </div>
+		<a href="#" name="topo"/>
+      <!-- Carousel
+         ================================================== -->
+      <div id="myCarousel" class="carousel slide">
+         <div class="carousel-inner">
+            <div class="item active">
+               <img src="./DevFestFiles/header.jpg" alt="">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <h1>Venha para o dia do profissional de informática!</h1>
+                     <p class="lead">Participe do dia do profissional de informática que será realizado na Faculdade Cenecista de Sete Lagoas pelo Google Developers Group BH.</p>
+                     <p>&nbsp;</p>
+                     <p class=""><span class="lead">17 de outubro de 2013</span>, a partir das 19h. <br>Faculdade Cenecista de Sete Lagoas<br/>
+                        Rua Pedro Gabriel de Lima, 20 - Jardim Arizona - Sete Lagoas - MG
+                     </p>
+                     <p>&nbsp;</p>
+                     <a class="btn btn-large btn-primary" href="https://www.eventick.com.br/gdgfcsl" target="_blank">Faça sua inscrição</a>&nbsp;
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- /.carousel -->
+      <div class="container programacao">
+         <div class="row areas">
+            <div class="span12 center">
+               <img src="./DevFestFiles/android.png" alt="" rel="popover" data-original-title="ANDROID" data-content="Saiba sobre as novidades da plataforma e quais as boas práticas no desenvolvimento de interfaces.">
+               <img src="./DevFestFiles/api.png" alt="" rel="popover" data-original-title="APIs" data-content="Tudo que você queria saber sobre Youtube, Maps, Google+ e não tinha para quem perguntar.">
+               <img src="./DevFestFiles/chrome.png" alt="" rel="popover" data-original-title="HTML5/Chrome" data-content="Interatividade, design e inovação utilizando o browser mais rápido do mercado.">
+               <img src="./DevFestFiles/cloud.png" alt="" rel="popover" data-original-title="CLOUD" data-content="Entenda como tirar proveito dos dados na nuvem e como fugir de tempestades :P">
+               <img src="./DevFestFiles/startup.png" alt="" rel="popover" data-original-title="STARTUPS" data-content="Empreendedores, curiosos e muita gente envolvida no cenário de startups no Brasil estarão presentes.">
+            </div>
+         </div>
+         <div class="featurette">
+            <h2 class="featurette-heading"><span class="muted">Confira nossa </span> programação</h2>
+            <p class="lead">&nbsp;</p>
+            <ul class="nav nav-tabs" id="tabProgramacao">
+               <li class="active"><a href="http://devfest.com.br/#programacao">Programação</a></li>
+               <!--
+                  <li><a href="#palestrantes">Palestrantes</a></li>
+                  -->
+            </ul>
+            <div class="tab-content">
+               <div class="tab-pane active" id="programacao">
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <td style="width: 7%;">Horário</td>
+                           <td>Auditório</td>                        
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr class="inverte">
+                           <td>19:00</td>
+                           <td>CREDENCIAMENTO</td>
+                        </tr>
+                        <tr>
+                           <td>19:30</td>
+                           <td>ABERTURA - GDGs</td>
+                        </tr>
+                        <tr>
+                           <td>19:45</td>
+						         <td > Criando Aplicações com Google Apps Script - <small>Jacob van den Berg</small> <span class="label label-warning">Google Apps Script</span></td>
+                        </tr>
+                        <tr>
+                           <td>20:15</td>
+                        </tr>
+                        <tr>
+                           <td>20:20</td>
+                           <td > Criando sua Primeira Chrome Apps - <small>Breno Araújo</small> <span class="label label-success">Chrome Apps</span></td>
+                        </tr>
+                        <tr>
+                           <td>20:50</td>
+                        </tr>
+                         <tr class="inverte">
+                           <td>20:50</td>
+                           <td colspan="6">INTERVALO</td>
+                        </tr>
+                         <tr>
+                           <td>21:10</td>
+                           <td > Utilizando API do Google Voice - <small>Leonardo Barros</small> <span class="label label-info">Google Voice</span></td>
+                        </tr>
+                        <tr>
+                           <td>21:40</td>
+                        </tr>
+                        
+                        <tr class="inverte">
+                           <td>21:40</td>
+                           <td colspan="6">ENCERRAMENTO e sorteios</td>
+                        </tr>
+                        <tr class="inverte">
+                           <td>22:00</td>
+                           <td colspan="6">até 2014!</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <small><strong>Programação sujeita a alterações.</strong> </small><br>
+                  <small>Atenção: existem apenas 200 vagas, inscreva já e garanta a sua.</small>
+               </div>
+               <div class="tab-pane" id="palestrantes">
+                  <p class="lead"></p>                 
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         
+         <hr class="featurette-divider">
+         <div class="row">
+            <div class="span8">
+               <div class="featurette">
+                  <h2 class="featurette-heading">Local e outras informações</h2>
+                  <p class="lead">O evento ocorre na Faculdade Cenecista de Sete Lagoas, na <a href="https://maps.google.com/maps?f=q&source=embed&hl=pt&geocode=&q=Rua+Pedro+Gabriel+de+Lima,+20,+Jardim+Arizona,Sete+Lagoas+,+Minas+Gerais&aq=&sll=37.0625,-95.677068&sspn=34.671324,79.013672&t=h&ie=UTF8&hq=Rua+Pedro+Gabriel+de+Lima,+20,+Jardim+Arizona,Sete+Lagoas+,+Minas+Gerais&hnear=&radius=15000&ll=-19.458863,-44.259802&spn=0.080612,0.154324&z=13&iwloc=A&cid=8880381547693737298" target="_blank">Rua Pedro Gabriel de Lima, 20, Sete Lagoas - MG, 35700-377, Brazil</p></a>
+                  <p>&nbsp;</p>
+                  <p class="lead">O espaço estará aberto a partir das 18:45. <br>
+                     Leve <strong>documento com foto</strong> (RG ou Habilitação) para entrada.
+                  </p>
+                  <p>&nbsp;</p>
+                  <p class="lead">Para os <strong>alunos</strong>, não se esqueçam de preencher o número de matrícula.</p>
+               </div>
+            </div>
+            <div class="span4" id="mapa" style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0);">
+              <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt&amp;geocode=&amp;q=Rua+Pedro+Gabriel+de+Lima,+20,+Jardim+Arizona,Sete+Lagoas+,+Minas+Gerais&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=34.671324,79.013672&amp;t=h&amp;ie=UTF8&amp;hq=Rua+Pedro+Gabriel+de+Lima,+20,+Jardim+Arizona,Sete+Lagoas+,+Minas+Gerais&amp;hnear=&amp;radius=15000&amp;ll=-19.458863,-44.259802&amp;spn=0.080612,0.154324&amp;z=13&amp;iwloc=A&amp;cid=8880381547693737298&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=pt&amp;geocode=&amp;q=Rua+Pedro+Gabriel+de+Lima,+20,+Jardim+Arizona,Sete+Lagoas+,+Minas+Gerais&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=34.671324,79.013672&amp;t=h&amp;ie=UTF8&amp;hq=Rua+Pedro+Gabriel+de+Lima,+20,+Jardim+Arizona,Sete+Lagoas+,+Minas+Gerais&amp;hnear=&amp;radius=15000&amp;ll=-19.458863,-44.259802&amp;spn=0.080612,0.154324&amp;z=13&amp;iwloc=A&amp;cid=8880381547693737298" style="color:#0000FF;text-align:left">Ver mapa maior</a></small>
+            </div>
+         </div>
+         <hr class="featurette-divider">
+         <div class="featurette">
+            <h2 class="featurette-heading">Não perca essa oportunidade!</h2>
+            <p class="lead">Evento Gratuito!</p>
+            <a class="btn btn-large btn-primary" href="http://eventick.com.br/" target="_blank">Faça sua inscrição</a>&nbsp;
+         </div>
+         <hr class="featurette-divider" style="margin-bottom: 30px;">
+         <!-- /END THE FEATURETTES -->
+         <div class="row">
+            <div class="span12" style="margin-bottom: 100px;">
+               <h4>Apoio</h4>
+               <div class="row" style="padding-bottom: 50px;">
+                  <div class="span4">
+                           <a href="http://fcsl.edu.br/" target="_blank">
+                           <img src="http://www.sindcon-rj.com.br/site/imagens/33_logotipo_faculdade.jpg" alt="" width="130" style="margin: 40px 0;">
+                           </a>
+                        </div>
+
+                  <div class="span4">
+                     <a href="http://google.com/" target="_blank"><img src="./DevFestFiles/google.png" alt="" style="margin: 30px 0;"></a>
+                  </div>
+               
+                      
+                
+               </div>
+               
+            </div>
+         </div>
+         <!-- FOOTER -->
+         <footer>
+            <p class="pull-right"><a href="#topo">Voltar para o topo</a></p>
+            <div>
+               <p>Este evento esta sendo organizado pelos <a href="http://bh.gtugs.org" rel="tooltip" data-placement="top" data-original-title="Google Developer Groups">GDGs</a>: </p>
+               <ul>
+                  <li><b>Belo Horizonte:</b> 
+                     <a href="https://plus.google.com/116085534841818923812" target="_blank">Jacob van den Berg</a>,
+					 <a href="https://plus.google.com/106108761300658289389" target="_blank">Breno Santos Araújo</a> e
+                     <a href="https://plus.google.com/101950228743755129233" target="_blank">Leonardo de Barros</a>
+                  </li>                  
+               </ul>
+               <p>Conheça outros DevFests que estão acontecendo pelo mundo em <a href="http://devfest.info/" target="_blank">http://devfest.info</a>.</p>
+            </div>
+         </footer>
+      </div>
+      <!-- /.container -->
+      <!-- Le javascript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script type="text/javascript" src="./DevFestFiles/js"></script><script src="./DevFestFiles/main.js" type="text/javascript"></script>
+      <script src="./DevFestFiles/jquery-1.8.2.min.js"></script>
+      <script src="./DevFestFiles/bootstrap.min.js"></script>
+      <script>
+         !function ($) {
+         $(function(){
+         
+             $("img[rel='popover']").popover({
+                 placement: "top",
+                 trigger: "hover"
+             });
+         
+             //tooltips
+             $("a[rel='tooltip']").tooltip();
+         
+             // carousel demo
+             //$('#myCarousel').carousel()
+         
+             $('#tabProgramacao a:first').tab('show');
+         
+             $('#tabProgramacao a').click(function (e) {
+               e.preventDefault();
+               $(this).tab('show');
+             })
+         
+         
+         
+         
+         
+         
+         })
+         }(window.jQuery)
+      </script>
+   </body>
+</html>
